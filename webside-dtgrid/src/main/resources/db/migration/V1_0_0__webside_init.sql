@@ -12,6 +12,9 @@ File Encoding         : 65001
 
 Date: 2016-07-13 14:33:32
 */
+DROP DATABASE IF EXISTS `webside`;
+CREATE DATABASE IF NOT EXISTS `webside` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `webside`;
 
 SET FOREIGN_KEY_CHECKS=0;
 
